@@ -14,7 +14,7 @@ function App() {
   };
   return (
     <>
-      <h1>counter</h1>
+      <h1>global counter</h1>
       <div className="card">
         <button onClick={increment}>count is {count}</button>
         <p>count is {countRef.current}</p>
